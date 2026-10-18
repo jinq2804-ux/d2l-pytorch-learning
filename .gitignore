@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+data/
+*.pt
+*.pth
+*.ckpt
+*.params
+*.log
+tempCodeRunnerFile.py
+.env
+.env.*
