@@ -1,0 +1,30 @@
+{
+  "epochs": 40,
+  "batch_size": 128,
+  "optimizer": "SGD",
+  "learning_rates": {
+    "1-20": 0.1,
+    "21-30": 0.03,
+    "31-40": 0.01
+  },
+  "weight_decay": 0.0001,
+  "conv_channels": [
+    32,
+    64
+  ],
+  "hidden_units": [
+    120,
+    84
+  ],
+  "activation": "ReLU",
+  "pooling": "MaxPool2d",
+  "dropout": [
+    0.2,
+    0.2
+  ],
+  "initialization": "Xavier uniform, zero biases",
+  "seed": 42,
+  "transforms": "ToTensor only",
+  "selection": "highest validation accuracy",
+  "training_seconds": 229.1
+}

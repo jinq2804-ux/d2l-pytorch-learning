@@ -1,0 +1,12 @@
+{
+  "test_acc": 0.9192,
+  "test_loss": 0.2416741446018219,
+  "best_epoch": 34,
+  "validation_acc": 0.9211666666666667,
+  "original": false,
+  "seed": 42,
+  "device": "mps",
+  "train_examples": 54000,
+  "validation_examples": 6000,
+  "test_examples": 10000
+}
